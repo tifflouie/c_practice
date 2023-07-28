@@ -153,6 +153,10 @@ int main(int argc, char **argv) {
         d = decimal integer
         s = string
         p = pointer value 
+        c = character
+        lf = double
+        f = float
+        llu = unsigned long long
     */
 
     // PRINT HELLO WORLD -----------------------------
@@ -235,6 +239,7 @@ int main(int argc, char **argv) {
     // display_cdcollection();
 
     // FILES ---------------------------------------------------------
+    // ** review **
     /*
         Key Letters:
         "r" = opens for reading
@@ -251,6 +256,7 @@ int main(int argc, char **argv) {
     // // deletefile();
 
     // BINARY FILES ----------------------------------------------------
+    // ** review **
     /*
         f = pointer
         fseek = seek the end of the file
