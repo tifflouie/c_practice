@@ -3,6 +3,7 @@
 #include <math.h>
 #include <stdbool.h>
 #include <stdint.h>
+#include <string.h>
 
 // typedef enum {
 //     None = 0,
@@ -56,6 +57,11 @@
 //         }
 //         printf("\n");
 //     }
+// }
+
+// **************************************************************************
+// void print_positions(char[] current_postion, char possible_moves[row][col]) {
+
 // }
 
 
@@ -286,8 +292,42 @@ int main() {
     // make_array(col, row, upper_limit, matrix);
 
 
-    // STRINGS --------------------------------------------------------------
-    
+    // PRACTICE - MOVE THE ROOK N CHESS ------------------------------------
+
+    #define NUM 8
+    #define LETTER 8
+    char possible_move[NUM][LETTER];
+    char number_str[NUM];
+    // char *start = 'a';
+
+    char c = 'A';
+
+    for (int r = 0; r < NUM; r++) {
+        for (int c = 0; c < LETTER; c++) {
+            sprintf(number_str, "%d", c + 1);
+            strcat("a", number_str);
+            printf("%s\n", number_str);
+           //possible_move[r][c] = strcat("a", number_str);
+        }
+    }
+
+    // char str[100] = "The number is: ";
+    // int number = 42;
+
+    // // Convert the integer to a string using sprintf
+    // char number_str[20]; // Make sure the character array is large enough
+    // sprintf(number_str, "%d", number);
+
+    // // Concatenate the string and the integer-as-a-string using strcat
+    // strcat(str, number_str);
+
+    // printf("%s\n", str); // Output: "The number is: 42"
+
+    return 0;
+
+
+
+
 
 
 
