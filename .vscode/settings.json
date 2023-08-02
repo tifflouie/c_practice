@@ -17,6 +17,13 @@
         "unordered_map": "c",
         "utility": "c",
         "vector": "c",
-        "__string": "c"
+        "__string": "c",
+        "__config": "cpp",
+        "array": "cpp",
+        "functional": "cpp",
+        "ios": "cpp",
+        "ostream": "cpp",
+        "sstream": "cpp",
+        "type_traits": "cpp"
     }
 }
