@@ -24,6 +24,7 @@
         "ios": "cpp",
         "ostream": "cpp",
         "sstream": "cpp",
-        "type_traits": "cpp"
+        "type_traits": "cpp",
+        "__tuple": "c"
     }
 }
