@@ -25,6 +25,15 @@
         "ostream": "cpp",
         "sstream": "cpp",
         "type_traits": "cpp",
-        "__tuple": "c"
+        "__tuple": "c",
+        "__debug": "c",
+        "__mutex_base": "c",
+        "concepts": "c",
+        "exception": "c",
+        "istream": "c",
+        "mutex": "c",
+        "optional": "c",
+        "streambuf": "c",
+        "variant": "c"
     }
 }
